@@ -1,0 +1,21 @@
+//header file
+#include<stdio.h> 
+// main method
+int main()
+{
+    // variable declared
+    int num;
+    // inputs taken from user
+    printf("Enter the number \n");
+    scanf("%d",&num);
+    // logic
+    if(num>0)
+    {
+        printf("Positive Number = %d\n" , num);
+    }
+    else
+    {
+        printf("Negtive Number = %d\n" , num);
+    }
+}
+
